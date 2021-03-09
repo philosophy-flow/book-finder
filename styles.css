@@ -181,7 +181,6 @@ body {
 
   .results-container {
     width: 95%;
-    border: 1px solid red;
     margin: 20px auto;
 
     display: flex;
