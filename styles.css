@@ -110,7 +110,6 @@ body {
 
 .card-image {
   grid-area: card-image;
-  /* border: 1px solid red; */
   border-radius: 5px;
   overflow: hidden;
 }
@@ -121,7 +120,6 @@ body {
 }
 
 .card-header {grid-area: card-header;
-  /* border: 1px solid blue; */
   margin-right: 7px;
   overflow: hidden;
 }
@@ -137,24 +135,16 @@ body {
 
 .card-content {
   grid-area: card-content;
-  /* border: 1px solid black; */
-  overflow: hidden;
+  text-overflow: ellipsis;
   padding: 10px;
   font-size: .9em;
 }
 
-
 .card-link {
   grid-area: card-link;
-  /* border: 1px solid purple; */
   padding: 4px;
   text-align: center;
 }
-
-
-
-
-
 
 
 
